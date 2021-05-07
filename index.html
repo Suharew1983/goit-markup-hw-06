@@ -595,41 +595,23 @@
           </ul>
         </div>
 
-        <div class="footer-social">
-          <h2 class="footer-social-title">Подпишитесь на рассылку</h2>
-          <ul class="footer-social-list">
-            <li class="footer-social-item">
-              <a class="footer-social-link" href="#" target="_blank" rel="noopener noreferer">
-                <svg class="footer-social-svg" width="20" height="20">
-                  <use href="./images/icons.svg#icon-instagram"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="footer-social-item">
-              <a class="footer-social-link" href="#" target="_blank" rel="noopener noreferer">
-                <svg class="footer-social-svg" width="20" height="20">
-                  <use href="./images/icons.svg#icon-twitter"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="footer-social-item">
-              <a class="footer-social-link" href="#" target="_blank" rel="noopener noreferer">
-                <svg class="footer-social-svg" width="20" height="20">
-                  <use href="./images/icons.svg#icon-facebook"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="footer-social-item">
-              <a class="footer-social-link" href="#" target="_blank" rel="noopener noreferer">
-                <svg class="footer-social-svg" width="20" height="20">
-                  <use href="./images/icons.svg#icon-linkedin"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
+        <div class="form">
+          <form class="footer-form">
+            <label class="footer-form-label" for="input-mail"><h3 class="footer-form-title">Подпишитесь на рассылку</h3></label>
+              <div class="input-item">
+                <input class="footer-form-input" name="input-mail-footer" placeholder="E-mail" id="input-mail"/>                    
+                  <button type="submit" class="footer-form-button">
+                     <span class="form-btn-text">Подписаться</span>
+                     <svg class="form-button-img" width="24" height="24">
+                      <use href="./images/icon-send"></use>
+                     </svg>
+                  </button>
+              </div>
+          </form>
         </div>
       </div>
     </footer>
+
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="modal-btn-close" data-modal-close>
@@ -637,8 +619,35 @@
             <use href="./images/icons.svg#icon-close-black-18dp"></use>
           </svg>
         </button>
-        <p class="modal-title"></p>
-        <p></p>
+        <h2 class="modal-title">Оставьте свои данные, мы вам перезвоним</h2>
+        
+        <form>
+            <label class="label" for="input-name">
+              Имя
+            <input type="text" class="modal-input" id="input-name">
+            </label>
+
+            <label class="label" for="input-phone">
+              Телефон
+            <input type="tel" class="modal-input" id="input-phone">
+            </label>
+
+            <label class="label" for="mail-modal">
+              Почта
+            <input type="email" class="modal-input" id="mail-modal">
+            </label>
+
+            <label class="label">
+              Комментарий
+              <textarea class="modal-input-comment" name="feedback" rows="5" placeholder="Введите текст"></textarea>
+            </label>
+
+            <label class="label-chekbox" for="checkbox">
+              Соглашаюсь с рассылкой и принимаю <a class="href-conditions" href="">Условия договора</a>
+              <input type="checkbox" class="checkbox-agree is-hidden" id="checkbox">
+            </label>
+        </form>
+
       </div>
     </div>
     <script src="./js/modal.js"></script>

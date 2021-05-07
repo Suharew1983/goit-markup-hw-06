@@ -688,3 +688,148 @@ img {
   background-color: #fff;
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
+
+/*Формы*/
+
+/*.footer-form {
+  width: 570px;
+  height: 86px;
+  left: 815px;
+  top: 2751px;
+}*/
+
+.form {
+  margin-left: 93px;
+}
+.footer-form-input {
+  display: flex;
+  align-items: center;
+  width: 358px;
+  height: 50px;
+  left: 815px;
+  top: 2787px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background: #2f303a;
+  padding-left: 16px;
+}
+
+.input-item {
+  display: flex;
+  align-items: center;
+}
+
+.footer-form-title {
+  margin-bottom: 20px;
+  width: 219px;
+  height: 16px;
+  left: 815px;
+  top: 2751px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.form-button-img {
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  margin-left: 10px;
+}
+
+.footer-form-button {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 0;
+  background-color: var(--accent-color);
+  width: 200px;
+  height: 50px;
+  border-radius: 4px;
+  border: transparent;
+  margin-right: 0;
+  margin-left: 12px;
+}
+
+.form-btn-text {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87px;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  padding-left: 29px;
+}
+
+.modal-title {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  padding: 0;
+  margin-bottom: 12px;
+}
+
+.modal-btn-close:hover .modal-btn-icon,
+.modal-btn-close:focus .modal-btn-icon {
+  fill: var(--accent-color);
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 4px;
+  margin-bottom: 10px;
+}
+
+.modal-input {
+  width: 448px;
+  height: 40px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.modal-input-comment {
+  width: 448px;
+  height: 120px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 12px;
+}
+
+.label-chekbox {
+  width: 400.62px;
+  height: 24px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+  margin-top: 20px;
+}
+
+.href-conditions {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration-line: underline;
+  color: var(--accent-color);
+}
