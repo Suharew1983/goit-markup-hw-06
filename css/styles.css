@@ -737,6 +737,7 @@ img {
   border-radius: 4px;
   background: #2f303a;
   padding-left: 16px;
+  color: var(--wite-text-color);
 }
 
 .input-item {
@@ -744,7 +745,24 @@ img {
   align-items: center;
 }
 
-.footer-form-label {
+/*.footer-form-label {
+  display: inline-block;
+  margin-bottom: 20px;
+  width: 219px;
+  height: 16px;
+  left: 815px;
+  top: 2751px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}*/
+
+.footer-form-title {
   display: inline-block;
   margin-bottom: 20px;
   width: 219px;
@@ -894,6 +912,7 @@ img {
   padding: 12px;
   resize: none;
   transition: border var(--animation);
+  margin-bottom: 20px;
 }
 
 .modal-input-comment::placeholder {
@@ -901,11 +920,6 @@ img {
 }
 
 /*кастомный чекбокс*/
-.is-hidden-check {
-  opacity: 0;
-
-  pointer-events: none;
-}
 
 .label-chekbox {
   font-weight: normal;
